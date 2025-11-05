@@ -1,0 +1,83 @@
+.menu{
+    height: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.logo {
+    color: blueviolet;
+    font-size: 14px;
+}
+.menu-item{
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+
+
+}
+.menu-item li{
+    list-style: none;
+}
+.main{
+    display: flex;
+    align-content: center;
+    padding: 40px;
+
+}
+.intro{
+    width: 60%;
+}
+.greeting{
+    font-size: 16px;
+    font-weight: 200;
+}
+span{
+    color: blueviolet;
+}
+p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.role{
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 0px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    width: 30px;
+    justify-content: space-between;
+}
+.touch{
+    background-color: #1a1a1a;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 12px;
+    box-shadow: 0px 1px 10px 0px #1a1a1a;
+}
+.image{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.circle{
+    height: 500px;
+    width: 500px;
+    border: 1px solid blueviolet;
+    border-radius: 50%;
+
+}
+.headshot{
+    height: 400px;
+    width:400px ;
+    border-radius: 50%;
+    object-fit:cover ;
+   /* margin:10% auto ;*/
+}
